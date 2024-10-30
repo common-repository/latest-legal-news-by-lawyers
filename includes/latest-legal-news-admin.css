@@ -1,0 +1,37 @@
+@charset "UTF-8";
+/**
+ * legal-news-headlines.css - Stylesheet for widget settings page (admin)
+
+*/
+
+.legal_news_headlines_admin_title {
+	width:100%;
+}
+
+.legal_news_headlines_admin_blogurl {
+	width:100%;
+}
+
+.legal_news_headlines_admin_headerimage {
+	top: -12px;
+	left: -12px;
+	position: relative;
+}
+
+.legal_news_headlines_admin_ldc {
+	text-decoration:none;
+	outline:none;
+}
+
+.legal_news_headlines_admin_list {
+	height: 345px;
+	overflow: auto;
+	margin: 5px 0 0;
+	line-height: 19px;
+}
+.legal_news_headlines_admin_list .parent_block {
+	margin-top: 5px;
+}
+.legal_news_headlines_admin_list .child {
+	margin-left: 20px;
+}

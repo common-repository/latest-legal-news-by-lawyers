@@ -1,0 +1,80 @@
+@charset "UTF-8";
+/**
+ * legal-news-headlines.css - Front-end stylesheet for the Legal News Headlines widget.
+
+*/
+
+/* outer block for the widget */
+.legal_news_headlines_block {
+	width: 100%;
+	position: relative;
+}
+
+.legal_news_headlines_block .hide {
+	display: none;
+}
+
+.legal_news_headlines_block span.prev, .legal_news_headlines_block .next {
+	cursor: pointer;
+	font-size: 88%;
+	background-color: #ccc;
+	padding: 2px 6px;
+	margin-left: 6px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+.legal_news_headlines_block .legal_navigation {
+	text-align: right;
+}
+
+/* title */
+.legal_news_headlines_title {
+
+}
+
+/* div container around UL for scrolling purposes */
+.legal_news_headlines_list_container {
+
+}
+
+/* ul for the list of headlines */
+.legal_news_headlines_list {
+	list-style: square inside;
+}
+
+/* each list item */
+.legal_news_headlines_listitem {
+	display: none;
+}
+.legal_news_headlines_listitem.show {
+	display: block;
+}
+
+/* linked text in list item */
+.legal_news_headlines_link {
+	line-height:100%;
+}
+
+.legal_news_headlines_read_more {
+	line-height:100%;
+	font-size: 85%;
+}
+
+/* author and date */
+.legal_news_headlines_author_date {
+	display: block;
+	width: 100%;
+	line-height:100%;
+	font-size: 85%;
+	color: #777;
+	padding: 2px 0 4px 0;
+}
+
+/* headline excerpt, if enabled */
+.legal_news_headlines_excerpt {
+	display: block;
+	width: 100%;
+	line-height:100%;
+}
